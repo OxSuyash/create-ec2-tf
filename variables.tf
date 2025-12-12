@@ -22,7 +22,16 @@ variable "region" {
 	description = "region where you want to deploy instance"
 	type = string
 	default = "us-east-1"
+}
 
+variable "sg_name" {
+	description = "security group name"
+	type = string
+}
+
+variable "sg_description" {
+	description = "describe security group rules"
+	type = string
 }
 
 

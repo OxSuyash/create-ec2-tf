@@ -6,8 +6,8 @@ provider "aws" {
 #security group
 resource "aws_security_group" "ssh_access" {
 
-	name = "ssh_access"
-	description = "Allow ssh inbound traffic"
+	name = var.sg_name
+	description = var.sg_description
 
 
 	ingress{
