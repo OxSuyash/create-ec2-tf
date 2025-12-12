@@ -15,6 +15,10 @@ instance_type = "instance_type"
 instance_name = "instance_name"
 
 region = "region"
+
+sg_name = "security group name"
+
+sg_description = "describe security group rules"
 ```
 3. init
 
