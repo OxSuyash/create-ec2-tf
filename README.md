@@ -1,5 +1,5 @@
 # create-ec2-tf
-prereq : terraform installed
+prereq : terraform installed    ->    https://github.com/OxSuyash/terraform-notes/blob/main/install-terraform.md
 
 1. Clone the repo
 
